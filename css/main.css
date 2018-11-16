@@ -1,1 +1,136 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");*{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}body,html{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;background:#0B0F23;font-family:'Open Sans', 'Roboto', sans-serif}.cf:after,.cf:before{display:table;content:" "}.cf:after{clear:both}header .nav-container{width:85%;margin:0 auto;background:transparent;padding:2em 0}header .nav-container nav a{text-decoration:none;color:#ECECEC}header .nav-container nav .logo{color:#ECECEC;font-size:1em;font-weight:700}header .nav-container nav .right-navigation{float:right}header .nav-container nav .right-navigation .right-nav{margin-left:30px;font-size:.85em}header .nav-container nav .contact-btn{background:rgba(167, 167, 167, 0.2);padding:15px}header .content{margin-top:130px;text-align:center}header .content .content-container{max-width:800px;margin:0 auto}header .content .content-container h1{color:#ECECEC;font-size:45px;font-weight:700;margin-bottom:20px}header .content .content-container p{color:#C7C7C7;font-size:25px;width:700px;margin:0 auto;line-height:1.5em;margin-bottom:15px}header .content .content-container p span{font-weight:700}header .content .content-container .socialLinks{width:300px;margin:0 auto}header .content .content-container .socialLinks a .bx{color:#ECECEC;font-size:1.8em;margin-right:10px;margin-bottom:80px}#portfolio{text-align:center;width:100%;margin-bottom:80px}#portfolio img{margin:1%;width:40%}footer{margin:0 auto}footer p{color:#ECECEC;text-align:center;font-size:.8em}@media only screen and (max-width:991px){header .nav-container{width:75%}header .content{margin-top:110px}header .content .content-container{max-width:700px}header .content .content-container h1{font-size:40px;margin-bottom:15px}header .content .content-container p{font-size:22px;width:620px;margin-bottom:15px}#portfolio img{margin:1%;width:70%}}@media only screen and (max-width:636px){header .nav-container nav .right-navigation{display:none}header .content .content-container{max-width:490px}header .content .content-container h1{font-size:35px}header .content .content-container p{font-size:18px;width:490px}header .content .content-container .socialLinks a .bx{font-size:1.5em}#portfolio img{margin:1%;width:65%}}@media only screen and (max-width:494px){header .content .content-container{max-width:470px}header .content .content-container h1{font-size:25px}header .content .content-container p{font-size:14px;width:380px}header .content .content-container .socialLinks a .bx{font-size:1.5em}#portfolio img{margin:1%;width:80%}}
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background: #0B0F23;
+  font-family: 'Open Sans', 'Roboto', sans-serif; }
+
+.cf:before, .cf:after {
+  display: table;
+  content: " "; }
+
+.cf:after {
+  clear: both; }
+
+header .nav-container {
+  width: 85%;
+  margin: 0 auto;
+  background: transparent;
+  padding: 2em 0; }
+  header .nav-container nav a {
+    text-decoration: none;
+    color: #ECECEC; }
+  header .nav-container nav .logo {
+    color: #ECECEC;
+    font-size: 1em;
+    font-weight: 700; }
+  header .nav-container nav .right-navigation {
+    float: right; }
+    header .nav-container nav .right-navigation .right-nav-item {
+      margin-left: 30px;
+      font-size: .85em; }
+  header .nav-container nav .contact-btn {
+    background: rgba(167, 167, 167, 0.2);
+    padding: 15px; }
+
+header .content {
+  margin-top: 130px;
+  text-align: center; }
+  header .content .content-container {
+    max-width: 800px;
+    margin: 0 auto; }
+    header .content .content-container h1 {
+      color: #ECECEC;
+      font-size: 45px;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    header .content .content-container p {
+      color: #C7C7C7;
+      font-size: 25px;
+      width: 700px;
+      margin: 0 auto;
+      line-height: 1.5em;
+      margin-bottom: 15px; }
+      header .content .content-container p span {
+        font-weight: 700; }
+    header .content .content-container .socialLinks {
+      width: 300px;
+      margin: 0 auto; }
+      header .content .content-container .socialLinks a .bx {
+        color: #ECECEC;
+        font-size: 1.8em;
+        margin-right: 10px;
+        margin-bottom: 80px; }
+
+#portfolio {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 80px; }
+  #portfolio img {
+    margin: 1%;
+    width: 40%; }
+
+footer {
+  margin: 0 auto; }
+  footer p {
+    color: #ECECEC;
+    text-align: center;
+    font-size: .8em; }
+
+@media only screen and (max-width: 991px) {
+  header .nav-container {
+    width: 75%; }
+  header .content {
+    margin-top: 110px; }
+    header .content .content-container {
+      max-width: 700px; }
+      header .content .content-container h1 {
+        font-size: 40px;
+        margin-bottom: 15px; }
+      header .content .content-container p {
+        font-size: 22px;
+        width: 620px;
+        margin-bottom: 15px; }
+  #portfolio img {
+    margin: 1%;
+    width: 70%; } }
+
+@media only screen and (max-width: 636px) {
+  header .nav-container nav .right-navigation {
+    display: none; }
+  header .content .content-container {
+    max-width: 490px; }
+    header .content .content-container h1 {
+      font-size: 35px; }
+    header .content .content-container p {
+      font-size: 18px;
+      width: 490px; }
+    header .content .content-container .socialLinks a .bx {
+      font-size: 1.5em; }
+  #portfolio img {
+    margin: 1%;
+    width: 65%; } }
+
+@media only screen and (max-width: 494px) {
+  header .content .content-container {
+    max-width: 470px; }
+    header .content .content-container h1 {
+      font-size: 25px; }
+    header .content .content-container p {
+      font-size: 14px;
+      width: 380px; }
+    header .content .content-container .socialLinks a .bx {
+      font-size: 1.5em; }
+  #portfolio img {
+    margin: 1%;
+    width: 80%; } }
