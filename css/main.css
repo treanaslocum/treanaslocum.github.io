@@ -107,7 +107,7 @@ footer {
 
 @media only screen and (max-width: 636px) {
   header .nav-container nav .right-navigation {
-    display: none; }
+    display: block; }
   header .content .content-container {
     max-width: 490px; }
     header .content .content-container h1 {
@@ -122,6 +122,14 @@ footer {
     width: 65%; } }
 
 @media only screen and (max-width: 494px) {
+  header .nav-container {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    background: transparent;
+    padding: 2em 0; }
+    header .nav-container nav .right-navigation {
+      display: block; }
   header .content .content-container {
     max-width: 470px; }
     header .content .content-container h1 {
