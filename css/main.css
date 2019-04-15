@@ -49,11 +49,20 @@ header .content {
   header .content .content-container {
     max-width: 800px;
     margin: 0 auto; }
+    header .content .content-container #developer-photo {
+      border: 5px solid transparent;
+      -webkit-border-image: -webkit-gradient(linear, left top, right bottom, from(#b827fc), color-stop(25%, #2c90fc), color-stop(50%, #b8fd33), color-stop(75%, #fec837), to(#fd1892));
+      -webkit-border-image: -webkit-linear-gradient(top left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+      -o-border-image: -o-linear-gradient(top left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+      border-image: -webkit-gradient(linear, left top, right bottom, from(#b827fc), color-stop(25%, #2c90fc), color-stop(50%, #b8fd33), color-stop(75%, #fec837), to(#fd1892));
+      border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+      border-image-slice: 1;
+      margin-bottom: 20px; }
     header .content .content-container h1 {
       color: #ECECEC;
       font-size: 45px;
       font-weight: 700;
-      margin-bottom: 20px; }
+      margin-bottom: 25px; }
     header .content .content-container p {
       color: #C7C7C7;
       font-size: 25px;
@@ -72,10 +81,49 @@ header .content {
         margin-right: 10px;
         margin-bottom: 80px; }
 
+#skills {
+  margin-top: 130px;
+  text-align: center;
+  margin-bottom: 180px; }
+  #skills .skills-ctn {
+    max-width: 800px;
+    margin: 0 auto; }
+    #skills .skills-ctn h2 {
+      font-size: 28px;
+      color: #ECECEC; }
+    #skills .skills-ctn .skill-row {
+      margin: 50px 0; }
+      #skills .skills-ctn .skill-row h4 {
+        color: #ECECEC;
+        margin-bottom: 5px; }
+      #skills .skills-ctn .skill-row ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        #skills .skills-ctn .skill-row ul li {
+          color: #C7C7C7;
+          font-size: 35px;
+          list-style: none;
+          margin: 0 25px; }
+
 #portfolio {
   text-align: center;
   width: 100%;
   margin-bottom: 80px; }
+  #portfolio h2 {
+    font-size: 28px;
+    color: #ECECEC;
+    margin: 40px 0; }
   #portfolio img {
     margin: 1%;
     width: 40%; }
