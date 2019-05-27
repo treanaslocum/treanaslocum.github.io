@@ -156,6 +156,10 @@ footer {
 @media only screen and (max-width: 636px) {
   header .nav-container nav .right-navigation {
     display: block; }
+    header .nav-container nav .right-navigation #skills-btn {
+      display: none; }
+    header .nav-container nav .right-navigation #portfolio-btn {
+      display: none; }
   header .content .content-container {
     max-width: 490px; }
     header .content .content-container h1 {
@@ -165,6 +169,8 @@ footer {
       width: 490px; }
     header .content .content-container .socialLinks a .bx {
       font-size: 1.5em; }
+  #skills .skill-row .d-icon {
+    font-size: 22px; }
   #portfolio img {
     margin: 1%;
     width: 65%; } }
@@ -178,6 +184,10 @@ footer {
     padding: 2em 0; }
     header .nav-container nav .right-navigation {
       display: block; }
+      header .nav-container nav .right-navigation #skills-btn {
+        display: none; }
+      header .nav-container nav .right-navigation #portfolio-btn {
+        display: none; }
   header .content .content-container {
     max-width: 470px; }
     header .content .content-container h1 {

@@ -249,6 +249,12 @@ footer {
       nav {
         .right-navigation {
           display: block;
+          #skills-btn {
+            display: none;
+          }
+          #portfolio-btn {
+            display: none;
+          }
         }
       }
     }
@@ -272,7 +278,13 @@ footer {
       }
     }
   }
-
+  #skills {
+    .skill-row {
+      .d-icon {
+        font-size: 22px;
+      }
+    }
+  }
   #portfolio {
     img {
       margin: 1%;
@@ -292,6 +304,12 @@ footer {
       nav {
         .right-navigation {
           display: block;
+          #skills-btn {
+            display: none;
+          }
+          #portfolio-btn {
+            display: none;
+          }
         }
       }
     }
