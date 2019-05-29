@@ -38,10 +38,15 @@ header .nav-container {
     float: right; }
     header .nav-container nav .right-navigation .right-nav-item {
       margin-left: 30px;
-      font-size: .85em; }
+      font-size: .85em;
+      font-weight: 700; }
+    header .nav-container nav .right-navigation .nav-item:hover {
+      color: #ffffff; }
   header .nav-container nav .contact-btn {
     background: rgba(167, 167, 167, 0.2);
     padding: 15px; }
+  header .nav-container nav .contact-btn:hover {
+    background: rgba(167, 167, 167, 0.1); }
 
 header .content {
   margin-top: 130px;
@@ -80,6 +85,8 @@ header .content {
         font-size: 1.8em;
         margin-right: 10px;
         margin-bottom: 80px; }
+      header .content .content-container .socialLinks a .bx:hover {
+        color: #ffffff; }
 
 #skills {
   margin-top: 130px;
@@ -188,6 +195,8 @@ footer {
         display: none; }
       header .nav-container nav .right-navigation #portfolio-btn {
         display: none; }
+      header .nav-container nav .right-navigation #blog-btn {
+        display: none; }
   header .content .content-container {
     max-width: 470px; }
     header .content .content-container h1 {
@@ -199,4 +208,7 @@ footer {
       font-size: 1.5em; }
   #portfolio img {
     margin: 1%;
-    width: 80%; } }
+    width: 80%; }
+  footer .footer-text {
+    font-size: 10px;
+    text-align: center; } }

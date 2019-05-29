@@ -45,11 +45,18 @@ header {
         .right-nav-item {
           margin-left: 30px;
           font-size: .85em;
+          font-weight: 700;
+        }
+        .nav-item:hover {
+          color: $white_font;
         }
       }
       .contact-btn {
         background: rgba(#a7a7a7, 0.2);
         padding: 15px;
+      }
+      .contact-btn:hover {
+        background: rgba(#a7a7a7, 0.1);
       }
     }
   }
@@ -92,6 +99,9 @@ header {
             font-size: 1.8em;
             margin-right: 10px;
             margin-bottom: 80px;
+          }
+          .bx:hover {
+            color: $white_font;
           }
         }
       }
@@ -310,6 +320,9 @@ footer {
           #portfolio-btn {
             display: none;
           }
+          #blog-btn {
+            display: none;
+          }
         }
       }
     }
@@ -337,6 +350,12 @@ footer {
     img {
       margin: 1%;
       width: 80%;
+    }
+  }
+  footer {
+    .footer-text {
+      font-size: 10px;
+      text-align: center;
     }
   }
 }
