@@ -130,10 +130,14 @@ header {
       color: $main_font;
     }
     .skill-row {
-      margin: 50px 0;
+      margin: 80px 0;
       h4 {
         color: $main_font;
         margin-bottom: 5px;
+      }
+      h5 {
+        margin-top: 30px;
+        color: $sub_font;
       }
       ul {
         display: flex;
@@ -145,6 +149,12 @@ header {
           font-size: 35px;
           list-style: none;
           margin: 0 25px;
+          .design-item {
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+          }
         }
       }
     }
@@ -365,6 +375,23 @@ footer {
           a {
             .bx {
               font-size: 1.5em;
+            }
+          }
+        }
+      }
+    }
+  }
+  #skills {
+    .skills-ctn {
+      .skill-row {
+        ul {
+          li {
+            margin: 0 5px;
+            .design-item {
+              font-size: 8px;
+              text-transform: uppercase;
+              font-weight: 700;
+              letter-spacing: 1px;
             }
           }
         }

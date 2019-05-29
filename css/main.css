@@ -107,10 +107,13 @@ header .content {
       font-size: 28px;
       color: #ECECEC; }
     #skills .skills-ctn .skill-row {
-      margin: 50px 0; }
+      margin: 80px 0; }
       #skills .skills-ctn .skill-row h4 {
         color: #ECECEC;
         margin-bottom: 5px; }
+      #skills .skills-ctn .skill-row h5 {
+        margin-top: 30px;
+        color: #C7C7C7; }
       #skills .skills-ctn .skill-row ul {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -130,6 +133,11 @@ header .content {
           font-size: 35px;
           list-style: none;
           margin: 0 25px; }
+          #skills .skills-ctn .skill-row ul li .design-item {
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px; }
 
 #portfolio {
   text-align: center;
@@ -231,6 +239,13 @@ footer {
       width: 350px; }
     header .content .content-container .socialLinks a .bx {
       font-size: 1.5em; }
+  #skills .skills-ctn .skill-row ul li {
+    margin: 0 5px; }
+    #skills .skills-ctn .skill-row ul li .design-item {
+      font-size: 8px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1px; }
   #portfolio img {
     margin: 1%;
     width: 80%; }
