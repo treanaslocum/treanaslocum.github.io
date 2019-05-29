@@ -67,7 +67,15 @@ header .content {
       color: #ECECEC;
       font-size: 45px;
       font-weight: 700;
-      margin-bottom: 25px; }
+      margin-bottom: 15px; }
+    header .content .content-container .bio-tagline {
+      font-size: 12px;
+      color: #C7C7C7;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-top: 25px;
+      letter-spacing: 3px; }
     header .content .content-container p {
       color: #C7C7C7;
       font-size: 25px;
@@ -199,11 +207,28 @@ footer {
         display: none; }
   header .content .content-container {
     max-width: 470px; }
+    header .content .content-container #developer-photo {
+      height: 125px;
+      width: 125px;
+      border: 3px solid transparent;
+      -webkit-border-image: -webkit-gradient(linear, left top, right bottom, from(#b827fc), color-stop(25%, #2c90fc), color-stop(50%, #b8fd33), color-stop(75%, #fec837), to(#fd1892));
+      -webkit-border-image: -webkit-linear-gradient(top left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+      -o-border-image: -o-linear-gradient(top left, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+      border-image: -webkit-gradient(linear, left top, right bottom, from(#b827fc), color-stop(25%, #2c90fc), color-stop(50%, #b8fd33), color-stop(75%, #fec837), to(#fd1892));
+      border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+      border-image-slice: 1;
+      margin-bottom: 20px; }
     header .content .content-container h1 {
-      font-size: 25px; }
+      font-size: 22px; }
+    header .content .content-container .bio-tagline {
+      font-size: 9px;
+      letter-spacing: 2px;
+      margin-top: 15px;
+      width: 222px;
+      line-height: 2; }
     header .content .content-container p {
       font-size: 14px;
-      width: 380px; }
+      width: 350px; }
     header .content .content-container .socialLinks a .bx {
       font-size: 1.5em; }
   #portfolio img {
